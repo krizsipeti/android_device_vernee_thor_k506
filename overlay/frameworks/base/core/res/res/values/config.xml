@@ -138,8 +138,10 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
+    <add-resource name="config_deviceHardwareKeys" type="integer"/>
     <integer name="config_deviceHardwareKeys">71</integer>
 
     <!-- Whether to enable HumanInteractionController by default -->
+    <add-resource name="config_HICEnabledDefault" type="bool"/>
     <bool name="config_HICEnabledDefault">false</bool>
 </resources>
